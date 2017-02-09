@@ -11,5 +11,5 @@ app.get('/',function (req,res) {
 });
 
 app.listen(appEnv.port,"0.0.0.0",function () {
-    console.log('Example app listening on port ' + appenv.url);
+    console.log('Example app listening on port ' + appEnv.url);
 }); 
