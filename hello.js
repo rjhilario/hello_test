@@ -6,7 +6,7 @@ var appEnv = cfenv.getAppEnv();
 
 app.get('/',function (req,res) {
     var ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
-    console.log("ipaddr = " + ip);
+    //console.log("ipaddr = " + ip);
     res.send('Hello World');
 });
 
